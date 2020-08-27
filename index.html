@@ -12,12 +12,14 @@
         background-color: #fafad2;
         margin-left: 25%;
         margin-right: 25%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        border-top: 1px solid #fafad2;
       }
       p {
         text-align: justify;
         font-family: Verdana, sans-serif;
         padding: 5px;
-
       }
       h1 {
         text-align: center;
@@ -28,6 +30,9 @@
       ol {
         text-align: left;
         font-family: Verdana, sans-serif;
+      }
+      div {
+        text-align: center;
       }
       #jogos {
         border-radius: 50%;
@@ -42,10 +47,16 @@
         padding-left: 30px;
         padding-bottom: 70px;
       }
+      #audio {
+        text-align: center;
+      }
     </style>
   </head>
   <body>
     <h1>Um pouco sobre mim</h1>
+    <p id="audio"><audio src="ost.mp3" controls loop=0 autoplay>
+      Seu navegador não comporta o áudio.
+    </audio></p>
     <p><img src="imagens/foto.png" id="altera">Meu nome é <strong>Leônidas</strong> José Furtado Braga e eu irei falar algumas coisas interessantes sobre mim! <del>Não que hajá muita coisa pra início de conversa.</del></p>
     <p>Eu nasci em 2005 em Belo Horizonte que é onde ainda vivo. Meu aniversário é dia 10 de <del>maio</del> março (talvez eu tenha errado o mês na hora de fazer a inscrição) e atualmente tenho 15 anos.
     Eu passo meu dia fazendo diferentes atividades extracurriculares como parkour, hipismo, esgrima, teatro, natação e algumas outras coisas. Durante meu tempo livre eu assisto anime <del>infelizmente</del>,
@@ -59,8 +70,10 @@
     </ol>
     <p>Todos estes jogos são do estilo <a href="https://en.wikipedia.org/wiki/Gacha_game" target="_blank">gacha</a> que consomem muito do meu tempo, principalmente os marcados. </p>
     <p>Não tenho muito mais o que dizer, então aqui estão as imagens de capa dos jogos que citei.</p>
-    <img src="imagens/grelhas.jpg" id="jogos">
-    <img src="imagens/arknights.jpg" id="jogos">
-    <img src="imagens/fgo.jpg" id="jogos">
+    <div>
+      <img src="imagens/grelhas.jpg" id="jogos">
+      <img src="imagens/arknights.jpg" id="jogos">
+      <img src="imagens/fgo.jpg" id="jogos">
+    </div>
   </body>
 </html>
